@@ -5,11 +5,11 @@ const reviewRouter = require('./reviewRouter');
 const movieRouter = require('./movieRouter');
 
 function Router(app) {
-    app.use('/api/rooms', roomRouter)
-    app.use('/api/chats', chatRouter);
-    app.use('/api/genres', genreRouter);
-    app.use('/api/reviews', reviewRouter);
-    app.use('/api/movies', movieRouter);
+    app.use('/api/v1/rooms', roomRouter)
+    app.use('/api/v1/chats', chatRouter);
+    app.use('/api/v1/genres', genreRouter);
+    app.use('/api/v1/reviews', reviewRouter);
+    app.use('/api/v1/movies', movieRouter);
 }
 
 module.exports = Router;
