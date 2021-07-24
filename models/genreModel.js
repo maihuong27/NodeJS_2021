@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const genreModel = new mongoose.Schema({
     name: String,
-    discription: String
+    description: String
 }, {
     timestamps: true
 });

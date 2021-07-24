@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const reviewModel = new mongoose.Schema({
     review: String,
-    rating: Number
+    ratting: Number
 }, {
     timestamps: true,
 });
